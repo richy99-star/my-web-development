@@ -1,13 +1,6 @@
 
-## Building the Google Meet Clone:
-1. Build the header; include the Google meet logo
-and other needed nav links.
+## Building a landing page for my website
+1. Create mx.html file
+2. Link stylesheet mx.css and mx.js to my mx.html file
 
-2. Build left and right information to help users
-register and join meetings.
 
-~create buttons and a
-mini form.
-
-~create a dommy image sprites on the right displaying
-vital info to users.
