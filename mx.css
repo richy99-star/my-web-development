@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+}
+header{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+/*
+header img {
+  height: inherit;
+  display: flex;
+  margin-left: 0px;
+  width: 20%;
+}
+*/
+header nav i {
+  display: flex;
+  margin-right: 10px;
+  color: red;
+}
+header nav {
+  margin-left: 50px;
+}
+header button {
+  outline: none;
+  border: 0;
+  padding: 6px;
+  background: green;
+  color: white;
+  display: flex;
+  margin-left: 35px;
+  border-radius: 50px;
+}
+.info {
+  min-height: 90px;
+  width: 100%;
+  background-image: url('/Rpx/Rave.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+.info h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: lighter;
+  color: red;
+  text-align: center;
+  border-bottom: red solid 2px;
+}
+.info p {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: lighter;
+  line-height: 30px;
+}
+.info button {
+  border: 1px solid blue;
+  outline: 0;
+  padding: 10px;
+  background: transparent;
+  margin-left: 120px;
+  color: #fff;
+}
+form {
+  display: flex;
+  padding: 20px;
+  margin-left: 0px;
+}
+form label {
+  margin-right: 3px;
+  text-align: center;
+  display: flex;
+  margin-left: none;
+}
+form input {
+  margin-right: 9px;
+  outline-color: blue;
+  min-width: 200px;
+  padding: 9px;
+  border: solid 0.5px green;
+  font-family: Helvetica;
+}
+form button{
+  border: none;
+  outline: none;
+  padding: 5px;
+  color: #ffe;
+  background-color: red;
+  width: 70px;
+  margin-right: 6px;
+  border-radius: 7px;
+}
+#alert {
+  width: 100px;
+  color: green;
+  padding: 5px;
+  margin-left: 150px;
+  display: none;
+  animation-name: prompt;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes prompt {
+  0%{display: none;}
+  100%{display: block; margin-left: 150px;}
+}
